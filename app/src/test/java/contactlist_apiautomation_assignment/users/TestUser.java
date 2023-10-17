@@ -17,11 +17,16 @@ public class TestUser {
     private String token;
     private String firstName;
     private String lastName;
-    private String email = Utils.generateEmail();
-    public String password = Utils.generatePassword();
+    private String email;
+    private String password;
 
-    
-
+    @BeforeClass
+    public void setUp(){
+        firstName = Utils.generateFirstName();
+        lastName = Utils.generateLastName();
+        email = Utils.generateEmail();
+        password = Utils.generatePassword();
+    }
     @Test(priority = 0)
     public void shouldTestCreateUser() throws IOException {
         //Arrange
@@ -58,13 +63,27 @@ public class TestUser {
         TestDataBuild testDataBuild = new TestDataBuild();
         //Act
         User user = given().spec(Utils.requestSpecificationBuilder())
-                .body(testDataBuild.createUserPayload("NewName", "NewLastName", email, password))
+                .body(testDataBuild.createUserPayload(firstName, lastName, email, password))
                 .header("Authorization", "Bearer " + token)
                 .when().patch(APIResources.UpdateUserAPI.getResource())
                 .then().assertThat().statusCode(200)
                 .extract().response().as(User.class);
         //Assert
-        Assert.assertEquals(user.getFirstName(),"NewName");
+        Assert.assertEquals(user.getFirstName(),firstName);
+    }
+
+    @Test(priority = 3)
+    public void shouldTestLogin() throws IOException {
+        //Arrange
+        TestDataBuild testDataBuild = new TestDataBuild();
+        //Act
+        CreateUserResponse createUserResponse = given().spec(Utils.requestSpecificationBuilder())
+                .body(testDataBuild.createLoginPayload(email, password))
+                .when().post(APIResources.LogInUserAPI.getResource())
+                .then().assertThat().statusCode(200)
+                .extract().response().as(CreateUserResponse.class);
+        //Assert
+        Assert.assertEquals(createUserResponse.getUser().getEmail(),email);
     }
 
 

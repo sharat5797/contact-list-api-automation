@@ -1,5 +1,6 @@
 package resources.testdata.user;
 
+import resources.requestbody.user.CreateLoginPayload;
 import resources.requestbody.user.CreateUserPayload;
 
 public class TestDataBuild {
@@ -10,5 +11,12 @@ public class TestDataBuild {
         createUserPayload.setEmail(email);
         createUserPayload.setPassword(password);
         return createUserPayload;
+    }
+
+    public CreateLoginPayload createLoginPayload(String email, String password) {
+        CreateLoginPayload createLoginPayload = new CreateLoginPayload();
+        createLoginPayload.setEmail(email);
+        createLoginPayload.setPassword(password);
+        return createLoginPayload;
     }
 }
