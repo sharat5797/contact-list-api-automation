@@ -1,5 +1,6 @@
 package contactlist_apiautomation_assignment.users;
 
+import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -19,6 +20,8 @@ public class TestUser {
     private String lastName;
     private String email;
     private String password;
+
+    private String loginToken;
 
     @BeforeClass
     public void setUp(){
@@ -82,8 +85,36 @@ public class TestUser {
                 .when().post(APIResources.LogInUserAPI.getResource())
                 .then().assertThat().statusCode(200)
                 .extract().response().as(CreateUserResponse.class);
+        loginToken = createUserResponse.getToken();
         //Assert
         Assert.assertEquals(createUserResponse.getUser().getEmail(),email);
+    }
+
+    @Test(priority = 4)
+    public void shouldTestLogOutUser() throws IOException {
+        //Arrange
+
+        //Act
+        Response response = given().spec(Utils.requestSpecificationBuilder())
+                .header("Authorization", "Bearer " + loginToken)
+                .when().post(APIResources.LogOutUserAPI.getResource())
+                .then().extract().response();
+        //Assert
+        Assert.assertEquals(response.statusCode(),200);
+    }
+    @Test(priority = 5)
+    public void shouldTestDeleteUser() throws IOException {
+        //Arrange
+        this.shouldTestLogin();
+
+        //Act
+        Response response = given().spec(Utils.requestSpecificationBuilder())
+                .header("Authorization", "Bearer " + loginToken)
+                .header("Cookie","token=" + loginToken)
+                .when().delete(APIResources.DeleteUserAPI.getResource())
+                .then().extract().response();
+        //Assert
+        Assert.assertEquals(response.getStatusCode(),200);
     }
 
 

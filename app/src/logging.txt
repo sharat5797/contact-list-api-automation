@@ -13,32 +13,32 @@ Body:
 {
     "firstName": "TempUser",
     "lastName": "K",
-    "email": "roscoe.terry@hotmail.com",
-    "password": "mvyd0l0gly20d"
+    "email": "mikki.cronin@hotmail.com",
+    "password": "d0yyj8oc"
 }
 HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697526587&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=oAuH8ID%2F52H%2BbR4Cl5DZ5m8zmElhRalgOlndxxQ09eY%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697526587&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=oAuH8ID%2F52H%2BbR4Cl5DZ5m8zmElhRalgOlndxxQ09eY%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697531969&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=2PXM4XpxK0pmXEKCSHhFLgNRcwOKEfj3jBGG7urR%2BZo%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697531969&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=2PXM4XpxK0pmXEKCSHhFLgNRcwOKEfj3jBGG7urR%2BZo%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
-Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlMzMzYmZkZTRlNTAwMTM5Yjk3ODgiLCJpYXQiOjE2OTc1MjY1ODd9.iQffpWas2K7tJj-00upAyK7WkqvkZJQ6dgDg_CduzAw; Max-Age=684; Path=/; Expires=Tue, 17 Oct 2023 07:21:11 GMT
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNDg0MWZkZTRlNTAwMTM5Yjk4MGEiLCJpYXQiOjE2OTc1MzE5Njl9.xhaQsrhGmmjU_Nd0ypxK613rumUIe87h530spQhmsZw; Max-Age=684; Path=/; Expires=Tue, 17 Oct 2023 08:50:53 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 284
-Etag: W/"11c-dOD8FDRxQk865RlpB8C6XjceuJE"
-Date: Tue, 17 Oct 2023 07:09:47 GMT
+Etag: W/"11c-WLyfUp2EpME3YEFjQI1JA1gLAtw"
+Date: Tue, 17 Oct 2023 08:39:29 GMT
 Via: 1.1 vegur
 
 {
     "user": {
-        "_id": "652e333bfde4e500139b9788",
+        "_id": "652e4841fde4e500139b980a",
         "firstName": "TempUser",
         "lastName": "K",
-        "email": "roscoe.terry@hotmail.com",
+        "email": "mikki.cronin@hotmail.com",
         "__v": 1
     },
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlMzMzYmZkZTRlNTAwMTM5Yjk3ODgiLCJpYXQiOjE2OTc1MjY1ODd9.iQffpWas2K7tJj-00upAyK7WkqvkZJQ6dgDg_CduzAw"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNDg0MWZkZTRlNTAwMTM5Yjk4MGEiLCJpYXQiOjE2OTc1MzE5Njl9.xhaQsrhGmmjU_Nd0ypxK613rumUIe87h530spQhmsZw"
 }
 Request method:	GET
 Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/me
@@ -47,7 +47,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlMzMzYmZkZTRlNTAwMTM5Yjk3ODgiLCJpYXQiOjE2OTc1MjY1ODd9.iQffpWas2K7tJj-00upAyK7WkqvkZJQ6dgDg_CduzAw
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNDg0MWZkZTRlNTAwMTM5Yjk4MGEiLCJpYXQiOjE2OTc1MzE5Njl9.xhaQsrhGmmjU_Nd0ypxK613rumUIe87h530spQhmsZw
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -55,22 +55,22 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697526589&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=bY8BuuuRzKQ4bNdWGw7fAF81JbbhRx0zHEXvaUkapDY%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697526589&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=bY8BuuuRzKQ4bNdWGw7fAF81JbbhRx0zHEXvaUkapDY%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697531970&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=YOrzQH0wMnjgnHAvSX0gMt8%2FSdGzEMXfsFdY9kd3PFs%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697531970&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=YOrzQH0wMnjgnHAvSX0gMt8%2FSdGzEMXfsFdY9kd3PFs%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 115
-Etag: W/"73-mZpIcq/73CmsSZLRPVVGkBEp/8E"
-Date: Tue, 17 Oct 2023 07:09:49 GMT
+Etag: W/"73-1hYSA4LXxD/bRPDk5eZZU4+Q5lc"
+Date: Tue, 17 Oct 2023 08:39:30 GMT
 Via: 1.1 vegur
 
 {
-    "_id": "652e333bfde4e500139b9788",
+    "_id": "652e4841fde4e500139b980a",
     "firstName": "TempUser",
     "lastName": "K",
-    "email": "roscoe.terry@hotmail.com",
+    "email": "mikki.cronin@hotmail.com",
     "__v": 1
 }
 Request method:	PATCH
@@ -80,33 +80,36 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlMzMzYmZkZTRlNTAwMTM5Yjk3ODgiLCJpYXQiOjE2OTc1MjY1ODd9.iQffpWas2K7tJj-00upAyK7WkqvkZJQ6dgDg_CduzAw
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNDg0MWZkZTRlNTAwMTM5Yjk4MGEiLCJpYXQiOjE2OTc1MzE5Njl9.xhaQsrhGmmjU_Nd0ypxK613rumUIe87h530spQhmsZw
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "firstName": "Johnny",
-    "lastName": "Ritchie",
-    "email": "roscoe.terry@hotmail.com",
-    "password": "mvyd0l0gly20d"
+    "firstName": "Larry",
+    "lastName": "McKenzie",
+    "email": "mikki.cronin@hotmail.com",
+    "password": "d0yyj8oc"
 }
 HTTP/1.1 200 OK
 Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697531971&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=ApfPEsuQ4VMf345V7Th1muZ49jhjMFaiDsS1dcr6mHk%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697531971&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=ApfPEsuQ4VMf345V7Th1muZ49jhjMFaiDsS1dcr6mHk%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
 Content-Length: 119
-Etag: W/"77-zaYSK+7TFJVQoxywxrbt8lEkcBs"
-Date: Tue, 17 Oct 2023 07:09:50 GMT
+Etag: W/"77-5zpwRjnJ05z/c2Av53v7MkeZ8GQ"
+Date: Tue, 17 Oct 2023 08:39:31 GMT
 Via: 1.1 vegur
 
 {
-    "_id": "652e333bfde4e500139b9788",
-    "firstName": "Johnny",
-    "lastName": "Ritchie",
-    "email": "roscoe.terry@hotmail.com",
+    "_id": "652e4841fde4e500139b980a",
+    "firstName": "Larry",
+    "lastName": "McKenzie",
+    "email": "mikki.cronin@hotmail.com",
     "__v": 1
 }
 Request method:	POST
@@ -122,27 +125,114 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "email": "roscoe.terry@hotmail.com",
-    "password": "mvyd0l0gly20d"
+    "email": "mikki.cronin@hotmail.com",
+    "password": "d0yyj8oc"
 }
 HTTP/1.1 200 OK
 Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697531973&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=xdQP46N3jVas%2F0NABAe3zI0g%2BFAHS4uljF9kSWMtH2s%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697531973&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=xdQP46N3jVas%2F0NABAe3zI0g%2BFAHS4uljF9kSWMtH2s%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
-Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlMzMzYmZkZTRlNTAwMTM5Yjk3ODgiLCJpYXQiOjE2OTc1MjY1OTJ9.zpqVnORwjZHZauPBOnkSJe79sNQGoYT3GFX-yJGztko; Max-Age=36000; Path=/; Expires=Tue, 17 Oct 2023 17:09:52 GMT
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNDg0MWZkZTRlNTAwMTM5Yjk4MGEiLCJpYXQiOjE2OTc1MzE5NzN9.cSbNMDS5Wjjz_n3RZBp02ShVehzrac1qyfyhynJlb_A; Max-Age=36000; Path=/; Expires=Tue, 17 Oct 2023 18:39:33 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 288
-Etag: W/"120-DIW435O4qYyXF1E8eSO+luUBb0Y"
-Date: Tue, 17 Oct 2023 07:09:52 GMT
+Etag: W/"120-kLkkBIKd+TiSG6kSu0OZnBSv44c"
+Date: Tue, 17 Oct 2023 08:39:33 GMT
 Via: 1.1 vegur
 
 {
     "user": {
-        "_id": "652e333bfde4e500139b9788",
-        "firstName": "Johnny",
-        "lastName": "Ritchie",
-        "email": "roscoe.terry@hotmail.com",
+        "_id": "652e4841fde4e500139b980a",
+        "firstName": "Larry",
+        "lastName": "McKenzie",
+        "email": "mikki.cronin@hotmail.com",
         "__v": 2
     },
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlMzMzYmZkZTRlNTAwMTM5Yjk3ODgiLCJpYXQiOjE2OTc1MjY1OTJ9.zpqVnORwjZHZauPBOnkSJe79sNQGoYT3GFX-yJGztko"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNDg0MWZkZTRlNTAwMTM5Yjk4MGEiLCJpYXQiOjE2OTc1MzE5NzN9.cSbNMDS5Wjjz_n3RZBp02ShVehzrac1qyfyhynJlb_A"
 }
+Request method:	POST
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/logout
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNDg0MWZkZTRlNTAwMTM5Yjk4MGEiLCJpYXQiOjE2OTc1MzE5NzN9.cSbNMDS5Wjjz_n3RZBp02ShVehzrac1qyfyhynJlb_A
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Date: Tue, 17 Oct 2023 08:39:34 GMT
+Content-Length: 0
+Via: 1.1 vegur
+Request method:	POST
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "mikki.cronin@hotmail.com",
+    "password": "d0yyj8oc"
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697531975&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=e%2FtEKhFienfeME%2BCCK%2BMvNOPrDVyrcjkIBBZpqeBQMM%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697531975&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=e%2FtEKhFienfeME%2BCCK%2BMvNOPrDVyrcjkIBBZpqeBQMM%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNDg0MWZkZTRlNTAwMTM5Yjk4MGEiLCJpYXQiOjE2OTc1MzE5NzV9.syjEuqNts1nKP-Z7-vnDV17vFk0pKKZrERZyIaPw-ak; Max-Age=36000; Path=/; Expires=Tue, 17 Oct 2023 18:39:35 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 288
+Etag: W/"120-p3eBdgS0iv49Rih9DgJeO9yA54o"
+Date: Tue, 17 Oct 2023 08:39:35 GMT
+Via: 1.1 vegur
+
+{
+    "user": {
+        "_id": "652e4841fde4e500139b980a",
+        "firstName": "Larry",
+        "lastName": "McKenzie",
+        "email": "mikki.cronin@hotmail.com",
+        "__v": 4
+    },
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNDg0MWZkZTRlNTAwMTM5Yjk4MGEiLCJpYXQiOjE2OTc1MzE5NzV9.syjEuqNts1nKP-Z7-vnDV17vFk0pKKZrERZyIaPw-ak"
+}
+Request method:	DELETE
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/me
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNDg0MWZkZTRlNTAwMTM5Yjk4MGEiLCJpYXQiOjE2OTc1MzE5NzV9.syjEuqNts1nKP-Z7-vnDV17vFk0pKKZrERZyIaPw-ak
+				Cookie=token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNDg0MWZkZTRlNTAwMTM5Yjk4MGEiLCJpYXQiOjE2OTc1MzE5NzV9.syjEuqNts1nKP-Z7-vnDV17vFk0pKKZrERZyIaPw-ak
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697531977&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=DmBH5GWuCSSN0RBZgL3fH2S409CIJG8Or3Jw7tnzaq8%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697531977&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=DmBH5GWuCSSN0RBZgL3fH2S409CIJG8Or3Jw7tnzaq8%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Date: Tue, 17 Oct 2023 08:39:37 GMT
+Content-Length: 0
+Via: 1.1 vegur
