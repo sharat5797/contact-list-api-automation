@@ -55,20 +55,16 @@ public class Utils {
     }
 
     public static String generateEmail(){
-        Faker faker = new Faker();
-        return faker.internet().emailAddress();
+        return new Faker().internet().emailAddress();
     }
     public static String generatePassword(){
-        Faker faker = new Faker();
-        return faker.internet().password();
+        return new Faker().internet().password();
     }
     public static String generateFirstName(){
-        Faker faker = new Faker();
-        return faker.name().firstName();
+        return new Faker().name().firstName();
     }
 
     public static  String generateLastName(){
-        Faker faker = new Faker();
-        return faker.name().lastName();
+        return new Faker().name().lastName();
     }
 }
