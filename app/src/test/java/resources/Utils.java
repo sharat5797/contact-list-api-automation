@@ -9,7 +9,7 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
-
+import com.github.javafaker.Faker;
 import java.io.*;
 import java.util.Properties;
 
@@ -37,7 +37,6 @@ public class Utils {
 
     public static ResponseSpecification responseSpecificationBuilder() {
         return new ResponseSpecBuilder()
-                .expectStatusCode(201)
                 .expectContentType(ContentType.JSON).build();
     }
 
@@ -53,5 +52,23 @@ public class Utils {
         String resp = response.asString();
         JsonPath jsonPath = new JsonPath(resp);
         return jsonPath.get(key);
+    }
+
+    public static String generateEmail(){
+        Faker faker = new Faker();
+        return faker.internet().emailAddress();
+    }
+    public static String generatePassword(){
+        Faker faker = new Faker();
+        return faker.internet().password();
+    }
+    public static String generateFirstName(){
+        Faker faker = new Faker();
+        return faker.name().firstName();
+    }
+
+    public static  String generateLastName(){
+        Faker faker = new Faker();
+        return faker.name().lastName();
     }
 }

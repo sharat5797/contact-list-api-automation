@@ -1,9 +1,5 @@
 package resources.requestbody.user;
 
-import lombok.Getter;
-import lombok.NoArgsConstructor;
-import lombok.Setter;
-
 
 public class CreateUserPayload {
     private String firstName;

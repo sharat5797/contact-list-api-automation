@@ -1,6 +1,6 @@
 package resources;
 
-import lombok.Getter;
+
 
 
 public enum APIResources {
