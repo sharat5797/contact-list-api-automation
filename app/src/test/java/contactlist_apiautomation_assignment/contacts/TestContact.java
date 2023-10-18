@@ -115,4 +115,19 @@ public class TestContact {
         Assert.assertEquals(contact.getFirstName(), "HelloUser");
     }
 
+    @Test(priority = 4)
+    public void shouldTestUpdateContactPatch() throws IOException {
+        //Arrange
+        ContactTestDataBuild contactTestDataBuild = new ContactTestDataBuild();
+        //Act
+        Contact contact = given().spec(Utils.requestSpecificationBuilder())
+                .body(contactTestDataBuild.updateContactPayload("HelloUser2"))
+                .header("Authorization", "Bearer " + token)
+                .when().patch(APIResources.UpdateContactAPI.getResource()+id)
+                .then().assertThat().statusCode(200)
+                .extract().response().as(Contact.class);
+        //Assert
+        Assert.assertEquals(contact.getFirstName(), "HelloUser2");
+    }
+
 }

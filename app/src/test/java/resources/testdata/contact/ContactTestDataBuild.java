@@ -1,6 +1,7 @@
 package resources.testdata.contact;
 
 import resources.requestbody.contact.CreateContactPayload;
+import resources.requestbody.contact.UpdateContactPayload;
 
 public class ContactTestDataBuild {
     public CreateContactPayload createContactPayload(
@@ -31,10 +32,10 @@ public class ContactTestDataBuild {
         return createContactPayload;
     }
 
-    public CreateContactPayload updateContactPayload(String firstName) {
-        CreateContactPayload createContactPayload = new CreateContactPayload();
-        createContactPayload.setFirstName(firstName);
-        return createContactPayload;
+    public UpdateContactPayload updateContactPayload(String firstName) {
+        UpdateContactPayload updateContactPayload = new UpdateContactPayload();
+        updateContactPayload.setFirstName(firstName);
+        return updateContactPayload;
     }
 
 }
