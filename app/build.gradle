@@ -61,3 +61,27 @@ tasks.named('test') {
     // Use TestNG for unit tests.
     useTestNG()
 }
+
+task UserTest(type: Test) {
+    useTestNG() {
+        suites 'src/test/resources/usertest.xml'
+    }
+}
+
+task runusertest(type: Test) {
+    dependsOn 'UserTest'
+    description = 'Run the UserTest using TestNG'
+    group = 'verification'
+}
+
+task ContactTest(type: Test) {
+    useTestNG() {
+        suites 'src/test/resources/contacttest.xml'
+    }
+}
+
+task runcontacttest(type: Test) {
+    dependsOn 'ContactTest'
+    description = 'Run the UserTest using TestNG'
+    group = 'verification'
+}
