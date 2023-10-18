@@ -13,398 +13,88 @@ Body:
 {
     "firstName": "TempUser",
     "lastName": "K",
-    "email": "jimmie.grady@hotmail.com",
-    "password": "yw5vy4a2zld2e"
+    "email": "magali.kutch@gmail.com",
+    "password": "m91vjt4b3vf"
 }
 HTTP/1.1 201 Created
 Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697607701&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=cVe7dJ9zAayyETU%2Ba6vTEXOunQ2jHNlGGexZmwMoCCw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697607701&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=cVe7dJ9zAayyETU%2Ba6vTEXOunQ2jHNlGGexZmwMoCCw%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
-Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNTU1ZWZkZTRlNTAwMTM5Yjk5MTEiLCJpYXQiOjE2OTc1MzUzMjZ9.6xfdqJGZUxnn-dmpfwIzsbu-ihofCsl-E76Z6gYLwDk; Max-Age=684; Path=/; Expires=Tue, 17 Oct 2023 09:46:50 GMT
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmNzAxNTdlZTAxNzAwMTMzN2FlOTkiLCJpYXQiOjE2OTc2MDc3MDF9.I-sg3bcuuUx_ZPCNDz60NTT-78WY5HUTC8E4zanaDBI; Max-Age=684; Path=/; Expires=Wed, 18 Oct 2023 05:53:05 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 284
-Etag: W/"11c-rbGRshaJn0CxqarDbt/L9vZufEs"
-Date: Tue, 17 Oct 2023 09:35:26 GMT
+Content-Length: 282
+Etag: W/"11a-ejd3OuzsIpA98KpK8Ivko8G7fVI"
+Date: Wed, 18 Oct 2023 05:41:41 GMT
 Via: 1.1 vegur
 
 {
     "user": {
-        "_id": "652e555efde4e500139b9911",
+        "_id": "652f70157ee017001337ae99",
         "firstName": "TempUser",
         "lastName": "K",
-        "email": "jimmie.grady@hotmail.com",
+        "email": "magali.kutch@gmail.com",
         "__v": 1
     },
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNTU1ZWZkZTRlNTAwMTM5Yjk5MTEiLCJpYXQiOjE2OTc1MzUzMjZ9.6xfdqJGZUxnn-dmpfwIzsbu-ihofCsl-E76Z6gYLwDk"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmNzAxNTdlZTAxNzAwMTMzN2FlOTkiLCJpYXQiOjE2OTc2MDc3MDF9.I-sg3bcuuUx_ZPCNDz60NTT-78WY5HUTC8E4zanaDBI"
 }
-Request method:	GET
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/me
+Request method:	POST
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNTU1ZWZkZTRlNTAwMTM5Yjk5MTEiLCJpYXQiOjE2OTc1MzUzMjZ9.6xfdqJGZUxnn-dmpfwIzsbu-ihofCsl-E76Z6gYLwDk
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Server: Cowboy
-Connection: keep-alive
-X-Powered-By: Express
-Content-Type: application/json; charset=utf-8
-Content-Length: 115
-Etag: W/"73-FX8hUy/nmnEiN/MLn3nQ4A0iDMA"
-Date: Tue, 17 Oct 2023 09:35:27 GMT
-Via: 1.1 vegur
-
-{
-    "_id": "652e555efde4e500139b9911",
-    "firstName": "TempUser",
-    "lastName": "K",
-    "email": "jimmie.grady@hotmail.com",
-    "__v": 1
-}
-Request method:	PATCH
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/me
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNTU1ZWZkZTRlNTAwMTM5Yjk5MTEiLCJpYXQiOjE2OTc1MzUzMjZ9.6xfdqJGZUxnn-dmpfwIzsbu-ihofCsl-E76Z6gYLwDk
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmNzAxNTdlZTAxNzAwMTMzN2FlOTkiLCJpYXQiOjE2OTc2MDc3MDF9.I-sg3bcuuUx_ZPCNDz60NTT-78WY5HUTC8E4zanaDBI
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "firstName": "Jefferson",
-    "lastName": "Lueilwitz",
-    "email": "jimmie.grady@hotmail.com",
-    "password": "yw5vy4a2zld2e"
+    "_id": null,
+    "firstName": "Vernie",
+    "lastName": "Kihn",
+    "birthdate": "1970-01-01",
+    "email": "magali.kutch@gmail.com",
+    "phone": "9876543210",
+    "street1": "0605 Jacqualine Mountains",
+    "street2": "Suite 686",
+    "city": "Alisiaport",
+    "stateProvince": "WA",
+    "postalCode": "35212-5990",
+    "country": "Grenada",
+    "owner": null,
+    "__v": 0
 }
-HTTP/1.1 200 OK
+HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697535328&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=5tZNMaOo8%2BLqxJTJv0wvkTlVeN%2ByGXFDt%2Fos4W1aRIk%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697535328&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=5tZNMaOo8%2BLqxJTJv0wvkTlVeN%2ByGXFDt%2Fos4W1aRIk%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697607704&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=en6C0TFifxR9OrO76I0pWM0%2BIDvB9E3OOE70lBWsuRk%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697607704&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=en6C0TFifxR9OrO76I0pWM0%2BIDvB9E3OOE70lBWsuRk%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 124
-Etag: W/"7c-Tkq+6g+Vl9nG/25DMhh9G/imwOs"
-Date: Tue, 17 Oct 2023 09:35:28 GMT
+Content-Length: 320
+Etag: W/"140-ENG8pKZxUhXN3QfknJsZ7p/H9tY"
+Date: Wed, 18 Oct 2023 05:41:44 GMT
 Via: 1.1 vegur
 
 {
-    "_id": "652e555efde4e500139b9911",
-    "firstName": "Jefferson",
-    "lastName": "Lueilwitz",
-    "email": "jimmie.grady@hotmail.com",
-    "__v": 1
-}
-Request method:	POST
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/login
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "email": "jimmie.grady@hotmail.com",
-    "password": "yw5vy4a2zld2e"
-}
-HTTP/1.1 200 OK
-Server: Cowboy
-Connection: keep-alive
-X-Powered-By: Express
-Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNTU1ZWZkZTRlNTAwMTM5Yjk5MTEiLCJpYXQiOjE2OTc1MzUzMzB9.peOVYeRAzclDwjntJcbAQxisp2AEwTwIfwXzCkhuLeQ; Max-Age=36000; Path=/; Expires=Tue, 17 Oct 2023 19:35:30 GMT
-Content-Type: application/json; charset=utf-8
-Content-Length: 293
-Etag: W/"125-3s2crNXRecEE24u1dMuudA4ZA6Q"
-Date: Tue, 17 Oct 2023 09:35:30 GMT
-Via: 1.1 vegur
-
-{
-    "user": {
-        "_id": "652e555efde4e500139b9911",
-        "firstName": "Jefferson",
-        "lastName": "Lueilwitz",
-        "email": "jimmie.grady@hotmail.com",
-        "__v": 2
-    },
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNTU1ZWZkZTRlNTAwMTM5Yjk5MTEiLCJpYXQiOjE2OTc1MzUzMzB9.peOVYeRAzclDwjntJcbAQxisp2AEwTwIfwXzCkhuLeQ"
-}
-Request method:	POST
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/logout
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNTU1ZWZkZTRlNTAwMTM5Yjk5MTEiLCJpYXQiOjE2OTc1MzUzMzB9.peOVYeRAzclDwjntJcbAQxisp2AEwTwIfwXzCkhuLeQ
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Server: Cowboy
-Connection: keep-alive
-X-Powered-By: Express
-Date: Tue, 17 Oct 2023 09:35:31 GMT
-Content-Length: 0
-Via: 1.1 vegur
-Request method:	POST
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/login
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "email": "jimmie.grady@hotmail.com",
-    "password": "yw5vy4a2zld2e"
-}
-HTTP/1.1 200 OK
-Server: Cowboy
-Connection: keep-alive
-X-Powered-By: Express
-Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNTU1ZWZkZTRlNTAwMTM5Yjk5MTEiLCJpYXQiOjE2OTc1MzUzMzJ9.dYZBD7MCiUCRxIXLRNNy30Kh57ZF1e0RZ4o6g6pSd6c; Max-Age=36000; Path=/; Expires=Tue, 17 Oct 2023 19:35:32 GMT
-Content-Type: application/json; charset=utf-8
-Content-Length: 293
-Etag: W/"125-N8mEHKctnzyV8FM3ru2Cdpeg1/c"
-Date: Tue, 17 Oct 2023 09:35:32 GMT
-Via: 1.1 vegur
-
-{
-    "user": {
-        "_id": "652e555efde4e500139b9911",
-        "firstName": "Jefferson",
-        "lastName": "Lueilwitz",
-        "email": "jimmie.grady@hotmail.com",
-        "__v": 4
-    },
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNTU1ZWZkZTRlNTAwMTM5Yjk5MTEiLCJpYXQiOjE2OTc1MzUzMzJ9.dYZBD7MCiUCRxIXLRNNy30Kh57ZF1e0RZ4o6g6pSd6c"
-}
-Request method:	DELETE
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/me
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNTU1ZWZkZTRlNTAwMTM5Yjk5MTEiLCJpYXQiOjE2OTc1MzUzMzJ9.dYZBD7MCiUCRxIXLRNNy30Kh57ZF1e0RZ4o6g6pSd6c
-				Cookie=token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNTU1ZWZkZTRlNTAwMTM5Yjk5MTEiLCJpYXQiOjE2OTc1MzUzMzJ9.dYZBD7MCiUCRxIXLRNNy30Kh57ZF1e0RZ4o6g6pSd6c
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 200 OK
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697535334&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=Ihh4P%2Bco1vFgNLmHN97F4NCCrwwxuxUZK5EI10CKEAY%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697535334&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=Ihh4P%2Bco1vFgNLmHN97F4NCCrwwxuxUZK5EI10CKEAY%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-X-Powered-By: Express
-Date: Tue, 17 Oct 2023 09:35:34 GMT
-Content-Length: 0
-Via: 1.1 vegur
-Request method:	POST
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/users
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "firstName": "TempUser",
-    "lastName": "K",
-    "email": "jimmie.grady@hotmail.com",
-    "password": "1234"
-}
-HTTP/1.1 400 Bad Request
-Server: Cowboy
-Connection: keep-alive
-X-Powered-By: Express
-Content-Type: application/json; charset=utf-8
-Content-Length: 507
-Etag: W/"1fb-ORbjWkZkAg4eygW29zHzCRmkR/Q"
-Date: Tue, 17 Oct 2023 09:35:35 GMT
-Via: 1.1 vegur
-
-{
-    "errors": {
-        "password": {
-            "name": "ValidatorError",
-            "message": "Path `password` (`1234`) is shorter than the minimum allowed length (7).",
-            "properties": {
-                "message": "Path `password` (`1234`) is shorter than the minimum allowed length (7).",
-                "type": "minlength",
-                "minlength": 7,
-                "path": "password",
-                "value": "1234"
-            },
-            "kind": "minlength",
-            "path": "password",
-            "value": "1234"
-        }
-    },
-    "_message": "User validation failed",
-    "message": "User validation failed: password: Path `password` (`1234`) is shorter than the minimum allowed length (7)."
-}
-Request method:	GET
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/me
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Bearer kjdnbcihusdcudsc
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 401 Unauthorized
-Server: Cowboy
-Connection: keep-alive
-X-Powered-By: Express
-Content-Type: application/json; charset=utf-8
-Content-Length: 32
-Etag: W/"20-l84Ae8oPqxLFOfh6GyOldXOyOfM"
-Date: Tue, 17 Oct 2023 09:35:37 GMT
-Via: 1.1 vegur
-
-{
-    "error": "Please authenticate."
-}
-Request method:	PATCH
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/me
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Bearer sdjbcujb
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "firstName": "Jefferson",
-    "lastName": "Lueilwitz",
-    "email": "jimmie.grady@hotmail.com",
-    "password": "yw5vy4a2zld2e"
-}
-HTTP/1.1 401 Unauthorized
-Server: Cowboy
-Connection: keep-alive
-X-Powered-By: Express
-Content-Type: application/json; charset=utf-8
-Content-Length: 32
-Etag: W/"20-l84Ae8oPqxLFOfh6GyOldXOyOfM"
-Date: Tue, 17 Oct 2023 09:35:39 GMT
-Via: 1.1 vegur
-
-{
-    "error": "Please authenticate."
-}
-Request method:	POST
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/login
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "email": "jimmie.grady@hotmail.com",
-    "password": "abckjsd"
-}
-HTTP/1.1 401 Unauthorized
-Server: Cowboy
-Connection: keep-alive
-X-Powered-By: Express
-Date: Tue, 17 Oct 2023 09:35:41 GMT
-Content-Length: 0
-Via: 1.1 vegur
-Request method:	POST
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/logout
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Bearer djkshfuisdcds
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 401 Unauthorized
-Server: Cowboy
-Connection: keep-alive
-X-Powered-By: Express
-Content-Type: application/json; charset=utf-8
-Content-Length: 32
-Etag: W/"20-l84Ae8oPqxLFOfh6GyOldXOyOfM"
-Date: Tue, 17 Oct 2023 09:35:43 GMT
-Via: 1.1 vegur
-
-{
-    "error": "Please authenticate."
-}
-Request method:	DELETE
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/users/me
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJlNTU1ZWZkZTRlNTAwMTM5Yjk5MTEiLCJpYXQiOjE2OTc1MzUzMzJ9.dYZBD7MCiUCRxIXLRNNy30Kh57ZF1e0RZ4o6g6pSd6c
-				Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:			<none>
-HTTP/1.1 401 Unauthorized
-Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697535344&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=b0G54JdHqFHfbwt%2FCpwkGJoSjqWeogKJNoawqoVNDvA%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697535344&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=b0G54JdHqFHfbwt%2FCpwkGJoSjqWeogKJNoawqoVNDvA%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
-Connection: keep-alive
-X-Powered-By: Express
-Content-Type: application/json; charset=utf-8
-Content-Length: 32
-Etag: W/"20-l84Ae8oPqxLFOfh6GyOldXOyOfM"
-Date: Tue, 17 Oct 2023 09:35:44 GMT
-Via: 1.1 vegur
-
-{
-    "error": "Please authenticate."
+    "_id": null,
+    "firstName": "Vernie",
+    "lastName": "Kihn",
+    "birthdate": "1970-01-01",
+    "email": "magali.kutch@gmail.com",
+    "phone": "9876543210",
+    "street1": "0605 Jacqualine Mountains",
+    "street2": "Suite 686",
+    "city": "Alisiaport",
+    "stateProvince": "WA",
+    "postalCode": "35212-5990",
+    "country": "Grenada",
+    "owner": "652f70157ee017001337ae99",
+    "__v": 0
 }

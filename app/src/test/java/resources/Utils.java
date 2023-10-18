@@ -67,4 +67,43 @@ public class Utils {
     public static  String generateLastName(){
         return new Faker().name().lastName();
     }
+    public static String generatePhoneNumber() {
+        return new Faker().phoneNumber().phoneNumber();
+    }
+    public static String generateBirthdate() {
+        return new Faker().date().birthday(18, 65).toString();
+    }
+
+    public static String generateStreet1() {
+        return new Faker().address().streetAddress();
+    }
+
+    public static String generateStreet2() {
+        return new Faker().address().secondaryAddress();
+    }
+
+    public static String generateCity() {
+        return new Faker().address().city();
+    }
+
+    public static String generateStateProvince() {
+        return new Faker().address().stateAbbr();
+    }
+
+    public static String generatePostalCode() {
+        return new Faker().address().zipCode();
+    }
+
+    public static String generateCountry() {
+        return new Faker().address().country();
+    }
+
+    public static String generateOwner() {
+        return new Faker().regexify("[a-f0-9]{24}");
+    }
+
+    public static int generateV() {
+        return new Faker().number().numberBetween(0, 10);
+    }
+
 }

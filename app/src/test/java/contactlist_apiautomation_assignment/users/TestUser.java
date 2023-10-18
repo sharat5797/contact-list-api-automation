@@ -38,13 +38,13 @@ public class TestUser {
         TestDataBuild testDataBuild = new TestDataBuild();
         //Act
         CreateUserResponse createUserResponse = given().spec(Utils.requestSpecificationBuilder())
-                .body(testDataBuild.createUserPayload("TempUser", "K", email, password))
+                .body(testDataBuild.createUserPayload(firstName, lastName, email, password))
                 .when().post(APIResources.CreateUserAPI.getResource())
                 .then().spec(Utils.responseSpecificationBuilder()).assertThat().statusCode(201)
                 .extract().response().as(CreateUserResponse.class);
         token = createUserResponse.getToken();
         //Assert
-        Assert.assertEquals(createUserResponse.getUser().getFirstName(), "TempUser");
+        Assert.assertEquals(createUserResponse.getUser().getFirstName(), firstName);
     }
 
     @Test(priority = 1)

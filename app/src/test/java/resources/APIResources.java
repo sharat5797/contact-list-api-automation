@@ -9,7 +9,12 @@ public enum APIResources {
     UpdateUserAPI("/users/me"),
     LogOutUserAPI("/users/logout"),
     LogInUserAPI("/users/login"),
-    DeleteUserAPI("/users/me");
+    DeleteUserAPI("/users/me"),
+    CreateContactAPI("/contacts"),
+    GetContactListAPI("/contacts"),
+    GetContactAPI("/contacts/"),
+    UpdateContactAPI("/contacts/"),
+    DeleteContactAPI("/contacts/");
 
     public String getResource() {
         return resource;
