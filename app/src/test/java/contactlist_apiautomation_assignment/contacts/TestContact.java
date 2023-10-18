@@ -1,5 +1,6 @@
 package contactlist_apiautomation_assignment.contacts;
 
+import contactlist_apiautomation_assignment.users.TestUser;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -7,10 +8,12 @@ import resources.APIResources;
 import resources.Utils;
 import resources.responsebody.contact.Contact;
 import resources.responsebody.user.CreateUserResponse;
+import resources.responsebody.user.User;
 import resources.testdata.contact.ContactTestDataBuild;
 import resources.testdata.user.TestDataBuild;
 
 import java.io.IOException;
+import java.util.List;
 
 import static io.restassured.RestAssured.given;
 
@@ -28,6 +31,7 @@ public class TestContact {
     private String stateProvince;
     private String postalCode;
     private String country;
+    private String id;
 
     @BeforeClass
     public void setUp() throws IOException {
@@ -43,8 +47,6 @@ public class TestContact {
         stateProvince=Utils.generateStateProvince();
         postalCode=Utils.generatePostalCode();
         country=Utils.generateCountry();
-
-
 
         TestDataBuild testDataBuild = new TestDataBuild();
         CreateUserResponse createUserResponse = given().spec(Utils.requestSpecificationBuilder())
@@ -68,4 +70,35 @@ public class TestContact {
         //Assert
         Assert.assertEquals(contact.getFirstName(), firstName);
     }
+
+    @Test(priority = 1)
+    public void shouldTestGetContactList() throws IOException {
+        //Arrange
+        //Act
+        List<Contact> contactList = given().spec(Utils.requestSpecificationBuilder())
+                .header("Authorization", "Bearer " + token)
+                .when().get(APIResources.GetContactListAPI.getResource())
+                .then().spec(Utils.responseSpecificationBuilder())
+                .assertThat().statusCode(200)
+                .extract().response()
+                .jsonPath().getList(".", Contact.class);
+        id=contactList.get(0).getContact().get_id();
+        //Assert
+        Assert.assertEquals(contactList.size(),1);
+    }
+
+    @Test(priority = 2)
+    public void shouldTestGetContact() throws IOException {
+        //Arrange
+        //Act
+        Contact contact = given().spec(Utils.requestSpecificationBuilder())
+                .header("Authorization", "Bearer " + token)
+                .when().get(APIResources.GetContactAPI.getResource()+id)
+                .then().spec(Utils.responseSpecificationBuilder())
+                .assertThat().statusCode(200)
+                .extract().response().as(Contact.class);
+        //Assert
+        Assert.assertEquals(contact.get_id(),id);
+    }
+
 }

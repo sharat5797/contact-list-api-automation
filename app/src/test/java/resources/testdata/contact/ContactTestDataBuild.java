@@ -30,4 +30,11 @@ public class ContactTestDataBuild {
         createContactPayload.setCountry(country);
         return createContactPayload;
     }
+
+    public CreateContactPayload updateContactPayload(String firstName) {
+        CreateContactPayload createContactPayload = new CreateContactPayload();
+        createContactPayload.setFirstName(firstName);
+        return createContactPayload;
+    }
+
 }

@@ -16,7 +16,7 @@ import java.io.IOException;
 import static io.restassured.RestAssured.given;
 
 public class TestUser {
-    private String token;
+    public static String token;
     private String firstName;
     private String lastName;
     private String email;

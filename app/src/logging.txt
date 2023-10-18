@@ -13,32 +13,29 @@ Body:
 {
     "firstName": "TempUser",
     "lastName": "K",
-    "email": "magali.kutch@gmail.com",
-    "password": "m91vjt4b3vf"
+    "email": "annetta.balistreri@gmail.com",
+    "password": "qo62ktnw"
 }
 HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697607701&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=cVe7dJ9zAayyETU%2Ba6vTEXOunQ2jHNlGGexZmwMoCCw%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697607701&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=cVe7dJ9zAayyETU%2Ba6vTEXOunQ2jHNlGGexZmwMoCCw%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
-Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmNzAxNTdlZTAxNzAwMTMzN2FlOTkiLCJpYXQiOjE2OTc2MDc3MDF9.I-sg3bcuuUx_ZPCNDz60NTT-78WY5HUTC8E4zanaDBI; Max-Age=684; Path=/; Expires=Wed, 18 Oct 2023 05:53:05 GMT
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmODgzYTdlZTAxNzAwMTMzN2IxZDIiLCJpYXQiOjE2OTc2MTM4ODJ9.FtTL8akOWBctzaDAkRqaLWOf7rlutOeKJS1nziRWYO8; Max-Age=684; Path=/; Expires=Wed, 18 Oct 2023 07:36:06 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 282
-Etag: W/"11a-ejd3OuzsIpA98KpK8Ivko8G7fVI"
-Date: Wed, 18 Oct 2023 05:41:41 GMT
+Content-Length: 288
+Etag: W/"120-rwW7fF9c/8psTS9SYi3WIPA9UHI"
+Date: Wed, 18 Oct 2023 07:24:42 GMT
 Via: 1.1 vegur
 
 {
     "user": {
-        "_id": "652f70157ee017001337ae99",
+        "_id": "652f883a7ee017001337b1d2",
         "firstName": "TempUser",
         "lastName": "K",
-        "email": "magali.kutch@gmail.com",
+        "email": "annetta.balistreri@gmail.com",
         "__v": 1
     },
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmNzAxNTdlZTAxNzAwMTMzN2FlOTkiLCJpYXQiOjE2OTc2MDc3MDF9.I-sg3bcuuUx_ZPCNDz60NTT-78WY5HUTC8E4zanaDBI"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmODgzYTdlZTAxNzAwMTMzN2IxZDIiLCJpYXQiOjE2OTc2MTM4ODJ9.FtTL8akOWBctzaDAkRqaLWOf7rlutOeKJS1nziRWYO8"
 }
 Request method:	POST
 Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts
@@ -47,7 +44,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmNzAxNTdlZTAxNzAwMTMzN2FlOTkiLCJpYXQiOjE2OTc2MDc3MDF9.I-sg3bcuuUx_ZPCNDz60NTT-78WY5HUTC8E4zanaDBI
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmODgzYTdlZTAxNzAwMTMzN2IxZDIiLCJpYXQiOjE2OTc2MTM4ODJ9.FtTL8akOWBctzaDAkRqaLWOf7rlutOeKJS1nziRWYO8
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -55,46 +52,187 @@ Multiparts:		<none>
 Body:
 {
     "_id": null,
-    "firstName": "Vernie",
-    "lastName": "Kihn",
+    "firstName": "Kraig",
+    "lastName": "Langosh",
     "birthdate": "1970-01-01",
-    "email": "magali.kutch@gmail.com",
+    "email": "annetta.balistreri@gmail.com",
     "phone": "9876543210",
-    "street1": "0605 Jacqualine Mountains",
-    "street2": "Suite 686",
-    "city": "Alisiaport",
-    "stateProvince": "WA",
-    "postalCode": "35212-5990",
-    "country": "Grenada",
+    "street1": "69167 Charles Greens",
+    "street2": "Apt. 540",
+    "city": "New Augustmouth",
+    "stateProvince": "MD",
+    "postalCode": "76218-2649",
+    "country": "Colombia",
     "owner": null,
     "__v": 0
 }
 HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697607704&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=en6C0TFifxR9OrO76I0pWM0%2BIDvB9E3OOE70lBWsuRk%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697607704&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=en6C0TFifxR9OrO76I0pWM0%2BIDvB9E3OOE70lBWsuRk%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697613884&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=hO8Buj9u2YIEcH0k1FlGp1HgBvMCCYOLtbDo5h2bHGg%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697613884&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=hO8Buj9u2YIEcH0k1FlGp1HgBvMCCYOLtbDo5h2bHGg%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 320
-Etag: W/"140-ENG8pKZxUhXN3QfknJsZ7p/H9tY"
-Date: Wed, 18 Oct 2023 05:41:44 GMT
+Content-Length: 328
+Etag: W/"148-GmH9QZ7YGgaYY2sK77wdiwVHdNU"
+Date: Wed, 18 Oct 2023 07:24:44 GMT
 Via: 1.1 vegur
 
 {
     "_id": null,
-    "firstName": "Vernie",
-    "lastName": "Kihn",
+    "firstName": "Kraig",
+    "lastName": "Langosh",
     "birthdate": "1970-01-01",
-    "email": "magali.kutch@gmail.com",
+    "email": "annetta.balistreri@gmail.com",
     "phone": "9876543210",
-    "street1": "0605 Jacqualine Mountains",
-    "street2": "Suite 686",
-    "city": "Alisiaport",
-    "stateProvince": "WA",
-    "postalCode": "35212-5990",
-    "country": "Grenada",
-    "owner": "652f70157ee017001337ae99",
+    "street1": "69167 Charles Greens",
+    "street2": "Apt. 540",
+    "city": "New Augustmouth",
+    "stateProvince": "MD",
+    "postalCode": "76218-2649",
+    "country": "Colombia",
+    "owner": "652f883a7ee017001337b1d2",
+    "__v": 0
+}
+Request method:	GET
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmODgzYTdlZTAxNzAwMTMzN2IxZDIiLCJpYXQiOjE2OTc2MTM4ODJ9.FtTL8akOWBctzaDAkRqaLWOf7rlutOeKJS1nziRWYO8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 352
+Etag: W/"160-igC0zwBFf4MWOnZLf0dGcm2sRC4"
+Date: Wed, 18 Oct 2023 07:24:46 GMT
+Via: 1.1 vegur
+
+[
+    {
+        "_id": "652f883c7ee017001337b1d5",
+        "firstName": "Kraig",
+        "lastName": "Langosh",
+        "birthdate": "1970-01-01",
+        "email": "annetta.balistreri@gmail.com",
+        "phone": "9876543210",
+        "street1": "69167 Charles Greens",
+        "street2": "Apt. 540",
+        "city": "New Augustmouth",
+        "stateProvince": "MD",
+        "postalCode": "76218-2649",
+        "country": "Colombia",
+        "owner": "652f883a7ee017001337b1d2",
+        "__v": 0
+    }
+]
+Request method:	GET
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652f883c7ee017001337b1d5
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmODgzYTdlZTAxNzAwMTMzN2IxZDIiLCJpYXQiOjE2OTc2MTM4ODJ9.FtTL8akOWBctzaDAkRqaLWOf7rlutOeKJS1nziRWYO8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697613889&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=bHi9nPGmg5k1fCBCHiYLarhonI%2FYeCJJewsX%2BaAGUwQ%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697613889&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=bHi9nPGmg5k1fCBCHiYLarhonI%2FYeCJJewsX%2BaAGUwQ%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 350
+Etag: W/"15e-OPZpkP6ge/Q5dIZLnZhaAh36Pio"
+Date: Wed, 18 Oct 2023 07:24:49 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "652f883c7ee017001337b1d5",
+    "firstName": "Kraig",
+    "lastName": "Langosh",
+    "birthdate": "1970-01-01",
+    "email": "annetta.balistreri@gmail.com",
+    "phone": "9876543210",
+    "street1": "69167 Charles Greens",
+    "street2": "Apt. 540",
+    "city": "New Augustmouth",
+    "stateProvince": "MD",
+    "postalCode": "76218-2649",
+    "country": "Colombia",
+    "owner": "652f883a7ee017001337b1d2",
+    "__v": 0
+}
+Request method:	PUT
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652f883c7ee017001337b1d5
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmODgzYTdlZTAxNzAwMTMzN2IxZDIiLCJpYXQiOjE2OTc2MTM4ODJ9.FtTL8akOWBctzaDAkRqaLWOf7rlutOeKJS1nziRWYO8
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "_id": null,
+    "firstName": "HelloUser",
+    "lastName": "Langosh",
+    "birthdate": "1970-01-01",
+    "email": "annetta.balistreri@gmail.com",
+    "phone": "9876543210",
+    "street1": "69167 Charles Greens",
+    "street2": "Apt. 540",
+    "city": "New Augustmouth",
+    "stateProvince": "MD",
+    "postalCode": "76218-2649",
+    "country": "Colombia",
+    "owner": null,
+    "__v": 0
+}
+HTTP/1.1 200 OK
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697613891&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RtPq6gkn7VCZXMK8SFiuuJ0AoBSM3qN0%2FTHUHveX7aY%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697613891&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=RtPq6gkn7VCZXMK8SFiuuJ0AoBSM3qN0%2FTHUHveX7aY%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 354
+Etag: W/"162-a9+d6pKz6Za57tJ9ZmYiWdTn3vI"
+Date: Wed, 18 Oct 2023 07:24:51 GMT
+Via: 1.1 vegur
+
+{
+    "_id": "652f883c7ee017001337b1d5",
+    "firstName": "HelloUser",
+    "lastName": "Langosh",
+    "birthdate": "1970-01-01",
+    "email": "annetta.balistreri@gmail.com",
+    "phone": "9876543210",
+    "street1": "69167 Charles Greens",
+    "street2": "Apt. 540",
+    "city": "New Augustmouth",
+    "stateProvince": "MD",
+    "postalCode": "76218-2649",
+    "country": "Colombia",
+    "owner": "652f883a7ee017001337b1d2",
     "__v": 0
 }
