@@ -13,32 +13,32 @@ Body:
 {
     "firstName": "TempUser",
     "lastName": "K",
-    "email": "chante.mann@gmail.com",
-    "password": "djv27bpb"
+    "email": "shella.reinger@yahoo.com",
+    "password": "elo60tmo2u"
 }
 HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697614862&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=1cGYCXQt3dR9X4U0H%2F%2F0YscBrfif1wp6ZIPkSYUDfsM%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697614862&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=1cGYCXQt3dR9X4U0H%2F%2F0YscBrfif1wp6ZIPkSYUDfsM%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697623291&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=UWIM29dtF%2BHe%2FSRsuRo69XwQOCTqioIGzn7lSiRfrvw%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697623291&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=UWIM29dtF%2BHe%2FSRsuRo69XwQOCTqioIGzn7lSiRfrvw%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
-Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGMwZWMwMzY2YTAwMTM5YjQyNmQiLCJpYXQiOjE2OTc2MTQ4NjJ9.fzxiycwF8cCfpaz8WUmQyesSmK6BGEnUHaP6Eohjacc; Max-Age=684; Path=/; Expires=Wed, 18 Oct 2023 07:52:26 GMT
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmYWNmYmMwMzY2YTAwMTM5YjQ0NzYiLCJpYXQiOjE2OTc2MjMyOTJ9.DFM_79_ai601ci5lrxl9HBP6kREx_vlVDV4gtGZ22ho; Max-Age=684; Path=/; Expires=Wed, 18 Oct 2023 10:12:56 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 281
-Etag: W/"119-tCJ871D955xrtoRItwkohuKF3uA"
-Date: Wed, 18 Oct 2023 07:41:02 GMT
+Content-Length: 284
+Etag: W/"11c-X8Xlj85auq9e/hI2/BG/jT1nqXU"
+Date: Wed, 18 Oct 2023 10:01:32 GMT
 Via: 1.1 vegur
 
 {
     "user": {
-        "_id": "652f8c0ec0366a00139b426d",
+        "_id": "652facfbc0366a00139b4476",
         "firstName": "TempUser",
         "lastName": "K",
-        "email": "chante.mann@gmail.com",
+        "email": "shella.reinger@yahoo.com",
         "__v": 1
     },
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGMwZWMwMzY2YTAwMTM5YjQyNmQiLCJpYXQiOjE2OTc2MTQ4NjJ9.fzxiycwF8cCfpaz8WUmQyesSmK6BGEnUHaP6Eohjacc"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmYWNmYmMwMzY2YTAwMTM5YjQ0NzYiLCJpYXQiOjE2OTc2MjMyOTJ9.DFM_79_ai601ci5lrxl9HBP6kREx_vlVDV4gtGZ22ho"
 }
 Request method:	POST
 Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts
@@ -47,7 +47,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGMwZWMwMzY2YTAwMTM5YjQyNmQiLCJpYXQiOjE2OTc2MTQ4NjJ9.fzxiycwF8cCfpaz8WUmQyesSmK6BGEnUHaP6Eohjacc
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmYWNmYmMwMzY2YTAwMTM5YjQ0NzYiLCJpYXQiOjE2OTc2MjMyOTJ9.DFM_79_ai601ci5lrxl9HBP6kREx_vlVDV4gtGZ22ho
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -55,17 +55,17 @@ Multiparts:		<none>
 Body:
 {
     "_id": null,
-    "firstName": "Leland",
-    "lastName": "Dach",
+    "firstName": "Rebecka",
+    "lastName": "Greenfelder",
     "birthdate": "1970-01-01",
-    "email": "chante.mann@gmail.com",
+    "email": "shella.reinger@yahoo.com",
     "phone": "9876543210",
-    "street1": "556 Charisse Isle",
-    "street2": "Apt. 744",
-    "city": "Lake Tawnya",
-    "stateProvince": "TN",
-    "postalCode": "53033-4760",
-    "country": "Sao Tome and Principe",
+    "street1": "8242 Iona Via",
+    "street2": "Apt. 797",
+    "city": "Charleyborough",
+    "stateProvince": "AZ",
+    "postalCode": "21789",
+    "country": "Paraguay",
     "owner": null,
     "__v": 0
 }
@@ -74,25 +74,25 @@ Server: Cowboy
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 325
-Etag: W/"145-u5nE1wdf+kJQS3DqVKsorHDkAAU"
-Date: Wed, 18 Oct 2023 07:41:04 GMT
+Content-Length: 317
+Etag: W/"13d-k6iJUiN5PXoUtEI4vOQs5XWI+JE"
+Date: Wed, 18 Oct 2023 10:01:33 GMT
 Via: 1.1 vegur
 
 {
     "_id": null,
-    "firstName": "Leland",
-    "lastName": "Dach",
+    "firstName": "Rebecka",
+    "lastName": "Greenfelder",
     "birthdate": "1970-01-01",
-    "email": "chante.mann@gmail.com",
+    "email": "shella.reinger@yahoo.com",
     "phone": "9876543210",
-    "street1": "556 Charisse Isle",
-    "street2": "Apt. 744",
-    "city": "Lake Tawnya",
-    "stateProvince": "TN",
-    "postalCode": "53033-4760",
-    "country": "Sao Tome and Principe",
-    "owner": "652f8c0ec0366a00139b426d",
+    "street1": "8242 Iona Via",
+    "street2": "Apt. 797",
+    "city": "Charleyborough",
+    "stateProvince": "AZ",
+    "postalCode": "21789",
+    "country": "Paraguay",
+    "owner": "652facfbc0366a00139b4476",
     "__v": 0
 }
 Request method:	GET
@@ -102,7 +102,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGMwZWMwMzY2YTAwMTM5YjQyNmQiLCJpYXQiOjE2OTc2MTQ4NjJ9.fzxiycwF8cCfpaz8WUmQyesSmK6BGEnUHaP6Eohjacc
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmYWNmYmMwMzY2YTAwMTM5YjQ0NzYiLCJpYXQiOjE2OTc2MjMyOTJ9.DFM_79_ai601ci5lrxl9HBP6kREx_vlVDV4gtGZ22ho
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -110,43 +110,43 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697614866&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=sGtymfTB6K3VWzRWnU2TRkujBPZI6wVFhAhQFI3bhdA%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697614866&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=sGtymfTB6K3VWzRWnU2TRkujBPZI6wVFhAhQFI3bhdA%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697623295&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=4rRgWoifw2RZk56MfCkWxSku0uyqjWgj1%2BV5og0NZH8%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697623295&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=4rRgWoifw2RZk56MfCkWxSku0uyqjWgj1%2BV5og0NZH8%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 349
-Etag: W/"15d-+0c+Pnv8+KHhfxoEZNrp0wQ+6es"
-Date: Wed, 18 Oct 2023 07:41:06 GMT
+Content-Length: 341
+Etag: W/"155-Rqm5A4nPftpqLadd44tCT5zEbmI"
+Date: Wed, 18 Oct 2023 10:01:35 GMT
 Via: 1.1 vegur
 
 [
     {
-        "_id": "652f8c10c0366a00139b4270",
-        "firstName": "Leland",
-        "lastName": "Dach",
+        "_id": "652facfd7ee017001337b3fb",
+        "firstName": "Rebecka",
+        "lastName": "Greenfelder",
         "birthdate": "1970-01-01",
-        "email": "chante.mann@gmail.com",
+        "email": "shella.reinger@yahoo.com",
         "phone": "9876543210",
-        "street1": "556 Charisse Isle",
-        "street2": "Apt. 744",
-        "city": "Lake Tawnya",
-        "stateProvince": "TN",
-        "postalCode": "53033-4760",
-        "country": "Sao Tome and Principe",
-        "owner": "652f8c0ec0366a00139b426d",
+        "street1": "8242 Iona Via",
+        "street2": "Apt. 797",
+        "city": "Charleyborough",
+        "stateProvince": "AZ",
+        "postalCode": "21789",
+        "country": "Paraguay",
+        "owner": "652facfbc0366a00139b4476",
         "__v": 0
     }
 ]
 Request method:	GET
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652f8c10c0366a00139b4270
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652facfd7ee017001337b3fb
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGMwZWMwMzY2YTAwMTM5YjQyNmQiLCJpYXQiOjE2OTc2MTQ4NjJ9.fzxiycwF8cCfpaz8WUmQyesSmK6BGEnUHaP6Eohjacc
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmYWNmYmMwMzY2YTAwMTM5YjQ0NzYiLCJpYXQiOjE2OTc2MjMyOTJ9.DFM_79_ai601ci5lrxl9HBP6kREx_vlVDV4gtGZ22ho
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -154,41 +154,38 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697614867&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=4WSD7GmShtNqz5ppmSDwF8hyjBb%2FrSJzSSdrxG9b8Rk%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697614867&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=4WSD7GmShtNqz5ppmSDwF8hyjBb%2FrSJzSSdrxG9b8Rk%3D
-Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 347
-Etag: W/"15b-vOIaUS3dAyx0KsuiH9F4jcJdCTM"
-Date: Wed, 18 Oct 2023 07:41:07 GMT
+Content-Length: 339
+Etag: W/"153-Dc6K2nvfl4MRaIlawhXW0Q8KksU"
+Date: Wed, 18 Oct 2023 10:01:37 GMT
 Via: 1.1 vegur
 
 {
-    "_id": "652f8c10c0366a00139b4270",
-    "firstName": "Leland",
-    "lastName": "Dach",
+    "_id": "652facfd7ee017001337b3fb",
+    "firstName": "Rebecka",
+    "lastName": "Greenfelder",
     "birthdate": "1970-01-01",
-    "email": "chante.mann@gmail.com",
+    "email": "shella.reinger@yahoo.com",
     "phone": "9876543210",
-    "street1": "556 Charisse Isle",
-    "street2": "Apt. 744",
-    "city": "Lake Tawnya",
-    "stateProvince": "TN",
-    "postalCode": "53033-4760",
-    "country": "Sao Tome and Principe",
-    "owner": "652f8c0ec0366a00139b426d",
+    "street1": "8242 Iona Via",
+    "street2": "Apt. 797",
+    "city": "Charleyborough",
+    "stateProvince": "AZ",
+    "postalCode": "21789",
+    "country": "Paraguay",
+    "owner": "652facfbc0366a00139b4476",
     "__v": 0
 }
 Request method:	PUT
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652f8c10c0366a00139b4270
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652facfd7ee017001337b3fb
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGMwZWMwMzY2YTAwMTM5YjQyNmQiLCJpYXQiOjE2OTc2MTQ4NjJ9.fzxiycwF8cCfpaz8WUmQyesSmK6BGEnUHaP6Eohjacc
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmYWNmYmMwMzY2YTAwMTM5YjQ0NzYiLCJpYXQiOjE2OTc2MjMyOTJ9.DFM_79_ai601ci5lrxl9HBP6kREx_vlVDV4gtGZ22ho
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -197,56 +194,56 @@ Body:
 {
     "_id": null,
     "firstName": "HelloUser",
-    "lastName": "Dach",
+    "lastName": "Greenfelder",
     "birthdate": "1970-01-01",
-    "email": "chante.mann@gmail.com",
+    "email": "shella.reinger@yahoo.com",
     "phone": "9876543210",
-    "street1": "556 Charisse Isle",
-    "street2": "Apt. 744",
-    "city": "Lake Tawnya",
-    "stateProvince": "TN",
-    "postalCode": "53033-4760",
-    "country": "Sao Tome and Principe",
+    "street1": "8242 Iona Via",
+    "street2": "Apt. 797",
+    "city": "Charleyborough",
+    "stateProvince": "AZ",
+    "postalCode": "21789",
+    "country": "Paraguay",
     "owner": null,
     "__v": 0
 }
 HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697614869&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=ZHMYBqHwaJGJRDwlEQKrkkFqBQhkffkBIChI2j8M42E%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697614869&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=ZHMYBqHwaJGJRDwlEQKrkkFqBQhkffkBIChI2j8M42E%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697623299&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=zQlPzPW%2BXk%2BOJ8xxwkUEbmz3ei7dwrtB3FRH%2BS%2BThw0%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697623299&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=zQlPzPW%2BXk%2BOJ8xxwkUEbmz3ei7dwrtB3FRH%2BS%2BThw0%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 350
-Etag: W/"15e-hhRx/GSh/DpGEbK3g92WscJmSmk"
-Date: Wed, 18 Oct 2023 07:41:10 GMT
+Content-Length: 341
+Etag: W/"155-ht6xk+zRtvioT2YekobSYjVuC2o"
+Date: Wed, 18 Oct 2023 10:01:39 GMT
 Via: 1.1 vegur
 
 {
-    "_id": "652f8c10c0366a00139b4270",
+    "_id": "652facfd7ee017001337b3fb",
     "firstName": "HelloUser",
-    "lastName": "Dach",
+    "lastName": "Greenfelder",
     "birthdate": "1970-01-01",
-    "email": "chante.mann@gmail.com",
+    "email": "shella.reinger@yahoo.com",
     "phone": "9876543210",
-    "street1": "556 Charisse Isle",
-    "street2": "Apt. 744",
-    "city": "Lake Tawnya",
-    "stateProvince": "TN",
-    "postalCode": "53033-4760",
-    "country": "Sao Tome and Principe",
-    "owner": "652f8c0ec0366a00139b426d",
+    "street1": "8242 Iona Via",
+    "street2": "Apt. 797",
+    "city": "Charleyborough",
+    "stateProvince": "AZ",
+    "postalCode": "21789",
+    "country": "Paraguay",
+    "owner": "652facfbc0366a00139b4476",
     "__v": 0
 }
 Request method:	PATCH
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652f8c10c0366a00139b4270
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652facfd7ee017001337b3fb
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGMwZWMwMzY2YTAwMTM5YjQyNmQiLCJpYXQiOjE2OTc2MTQ4NjJ9.fzxiycwF8cCfpaz8WUmQyesSmK6BGEnUHaP6Eohjacc
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmYWNmYmMwMzY2YTAwMTM5YjQ0NzYiLCJpYXQiOjE2OTc2MjMyOTJ9.DFM_79_ai601ci5lrxl9HBP6kREx_vlVDV4gtGZ22ho
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -260,35 +257,35 @@ Server: Cowboy
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 351
-Etag: W/"15f-SpLoru2EJZ6AE9WJstvxQcLbwrk"
-Date: Wed, 18 Oct 2023 07:41:11 GMT
+Content-Length: 342
+Etag: W/"156-Pi4y3AvJNEWU74p4dut20VW/A48"
+Date: Wed, 18 Oct 2023 10:01:40 GMT
 Via: 1.1 vegur
 
 {
-    "_id": "652f8c10c0366a00139b4270",
+    "_id": "652facfd7ee017001337b3fb",
     "firstName": "HelloUser2",
-    "lastName": "Dach",
+    "lastName": "Greenfelder",
     "birthdate": "1970-01-01",
-    "email": "chante.mann@gmail.com",
+    "email": "shella.reinger@yahoo.com",
     "phone": "9876543210",
-    "street1": "556 Charisse Isle",
-    "street2": "Apt. 744",
-    "city": "Lake Tawnya",
-    "stateProvince": "TN",
-    "postalCode": "53033-4760",
-    "country": "Sao Tome and Principe",
-    "owner": "652f8c0ec0366a00139b426d",
+    "street1": "8242 Iona Via",
+    "street2": "Apt. 797",
+    "city": "Charleyborough",
+    "stateProvince": "AZ",
+    "postalCode": "21789",
+    "country": "Paraguay",
+    "owner": "652facfbc0366a00139b4476",
     "__v": 0
 }
 Request method:	DELETE
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652f8c10c0366a00139b4270
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652facfd7ee017001337b3fb
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGMwZWMwMzY2YTAwMTM5YjQyNmQiLCJpYXQiOjE2OTc2MTQ4NjJ9.fzxiycwF8cCfpaz8WUmQyesSmK6BGEnUHaP6Eohjacc
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmYWNmYmMwMzY2YTAwMTM5YjQ0NzYiLCJpYXQiOjE2OTc2MjMyOTJ9.DFM_79_ai601ci5lrxl9HBP6kREx_vlVDV4gtGZ22ho
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -301,9 +298,243 @@ X-Powered-By: Express
 Content-Type: text/html; charset=utf-8
 Content-Length: 15
 Etag: W/"f-smqnjm2ArsFbkvZ+qy6N7Dow4bQ"
-Date: Wed, 18 Oct 2023 07:41:13 GMT
+Date: Wed, 18 Oct 2023 10:01:41 GMT
 Via: 1.1 vegur
 
 <html>
   <body>Contact deleted</body>
+</html>
+Request method:	POST
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmYWNmYmMwMzY2YTAwMTM5YjQ0NzYiLCJpYXQiOjE2OTc2MjMyOTJ9.DFM_79_ai601ci5lrxl9HBP6kREx_vlVDV4gtGZ22ho
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "_id": null,
+    "firstName": "Rebecka",
+    "lastName": "Greenfelder",
+    "birthdate": "1970-01-01",
+    "email": "shella.reinger@yahoo.com",
+    "phone": "987654dhfgsudfygud3210",
+    "street1": "8242 Iona Via",
+    "street2": "Apt. 797",
+    "city": "Charleyborough",
+    "stateProvince": "AZ",
+    "postalCode": "21789",
+    "country": "Paraguay",
+    "owner": null,
+    "__v": 0
+}
+HTTP/1.1 400 Bad Request
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 583
+Etag: W/"247-gMS0K+lhv/EmDT+uu+a4niB7FzE"
+Date: Wed, 18 Oct 2023 10:01:43 GMT
+Via: 1.1 vegur
+
+{
+    "errors": {
+        "phone": {
+            "name": "ValidatorError",
+            "message": "Path `phone` (`987654dhfgsudfygud3210`) is longer than the maximum allowed length (15).",
+            "properties": {
+                "message": "Path `phone` (`987654dhfgsudfygud3210`) is longer than the maximum allowed length (15).",
+                "type": "maxlength",
+                "maxlength": 15,
+                "path": "phone",
+                "value": "987654dhfgsudfygud3210"
+            },
+            "kind": "maxlength",
+            "path": "phone",
+            "value": "987654dhfgsudfygud3210"
+        }
+    },
+    "_message": "Contact validation failed",
+    "message": "Contact validation failed: phone: Path `phone` (`987654dhfgsudfygud3210`) is longer than the maximum allowed length (15)."
+}
+Request method:	GET
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer jdhgfdusycgdsicstockernj
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 401 Unauthorized
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697623305&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=Futsn%2BwB7LhRmX%2FSOcI7YKpeUBu3yuFoR96myreE72k%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697623305&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=Futsn%2BwB7LhRmX%2FSOcI7YKpeUBu3yuFoR96myreE72k%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 32
+Etag: W/"20-l84Ae8oPqxLFOfh6GyOldXOyOfM"
+Date: Wed, 18 Oct 2023 10:01:45 GMT
+Via: 1.1 vegur
+
+{
+    "error": "Please authenticate."
+}
+Request method:	GET
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/jguy654134yruy7
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmYWNmYmMwMzY2YTAwMTM5YjQ0NzYiLCJpYXQiOjE2OTc2MjMyOTJ9.DFM_79_ai601ci5lrxl9HBP6kREx_vlVDV4gtGZ22ho
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697623307&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=iIAjIn53dEg3ZnfSpQsMMuXKFSs2gHYE795%2BAlvLx5M%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697623307&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=iIAjIn53dEg3ZnfSpQsMMuXKFSs2gHYE795%2BAlvLx5M%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 18
+Etag: W/"12-sGOBmwLxeSG3loIjVLgE3KUPWlY"
+Date: Wed, 18 Oct 2023 10:01:47 GMT
+Via: 1.1 vegur
+
+<html>
+  <body>Invalid Contact ID</body>
+</html>
+Request method:	PUT
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652facfd7ee017001337b3fb
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmYWNmYmMwMzY2YTAwMTM5YjQ0NzYiLCJpYXQiOjE2OTc2MjMyOTJ9.DFM_79_ai601ci5lrxl9HBP6kREx_vlVDV4gtGZ22ho
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "_id": null,
+    "firstName": "HelloUser",
+    "lastName": "Greenfelder",
+    "birthdate": "1970-01-01",
+    "email": "shella.reinger@yahoo.com",
+    "phone": "987sdssdsjbsdhbsdcjnk6543210",
+    "street1": "8242 Iona Via",
+    "street2": "Apt. 797",
+    "city": "Charleyborough",
+    "stateProvince": "AZ",
+    "postalCode": "21789",
+    "country": "Paraguay",
+    "owner": null,
+    "__v": 0
+}
+HTTP/1.1 400 Bad Request
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: application/json; charset=utf-8
+Content-Length: 597
+Etag: W/"255-744283Q2outj7gm5I3Wng5QVfl8"
+Date: Wed, 18 Oct 2023 10:01:48 GMT
+Via: 1.1 vegur
+
+{
+    "errors": {
+        "phone": {
+            "name": "ValidatorError",
+            "message": "Path `phone` (`987sdssdsjbsdhbsdcjnk6543210`) is longer than the maximum allowed length (15).",
+            "properties": {
+                "message": "Path `phone` (`987sdssdsjbsdhbsdcjnk6543210`) is longer than the maximum allowed length (15).",
+                "type": "maxlength",
+                "maxlength": 15,
+                "path": "phone",
+                "value": "987sdssdsjbsdhbsdcjnk6543210"
+            },
+            "kind": "maxlength",
+            "path": "phone",
+            "value": "987sdssdsjbsdhbsdcjnk6543210"
+        }
+    },
+    "_message": "Validation failed",
+    "message": "Validation failed: phone: Path `phone` (`987sdssdsjbsdhbsdcjnk6543210`) is longer than the maximum allowed length (15)."
+}
+Request method:	PATCH
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/dsjfhuis7438623
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmYWNmYmMwMzY2YTAwMTM5YjQ0NzYiLCJpYXQiOjE2OTc2MjMyOTJ9.DFM_79_ai601ci5lrxl9HBP6kREx_vlVDV4gtGZ22ho
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "firstName": "HelloUser2"
+}
+HTTP/1.1 400 Bad Request
+Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697623310&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=YlZfuUhOGgxu6kwvDRDtDO%2BRAACAjLKkpTgmEArGRmI%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697623310&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=YlZfuUhOGgxu6kwvDRDtDO%2BRAACAjLKkpTgmEArGRmI%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 18
+Etag: W/"12-sGOBmwLxeSG3loIjVLgE3KUPWlY"
+Date: Wed, 18 Oct 2023 10:01:50 GMT
+Via: 1.1 vegur
+
+<html>
+  <body>Invalid Contact ID</body>
+</html>
+Request method:	DELETE
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/djcfhu8sdg632546718id
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmYWNmYmMwMzY2YTAwMTM5YjQ0NzYiLCJpYXQiOjE2OTc2MjMyOTJ9.DFM_79_ai601ci5lrxl9HBP6kREx_vlVDV4gtGZ22ho
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 400 Bad Request
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 18
+Etag: W/"12-sGOBmwLxeSG3loIjVLgE3KUPWlY"
+Date: Wed, 18 Oct 2023 10:01:51 GMT
+Via: 1.1 vegur
+
+<html>
+  <body>Invalid Contact ID</body>
 </html>
