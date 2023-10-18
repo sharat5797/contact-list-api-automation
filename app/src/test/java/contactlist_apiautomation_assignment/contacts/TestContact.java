@@ -100,5 +100,19 @@ public class TestContact {
         //Assert
         Assert.assertEquals(contact.get_id(),id);
     }
+    @Test(priority = 3)
+    public void shouldTestUpdateContact() throws IOException {
+        //Arrange
+        ContactTestDataBuild contactTestDataBuild = new ContactTestDataBuild();
+        //Act
+        Contact contact = given().spec(Utils.requestSpecificationBuilder())
+                .body(contactTestDataBuild.createContactPayload("HelloUser",lastName,"1970-01-01",email,"9876543210",street1,street2,city,stateProvince,postalCode,country))
+                .header("Authorization", "Bearer " + token)
+                .when().put(APIResources.UpdateContactAPI.getResource()+id)
+                .then().assertThat().statusCode(200)
+                .extract().response().as(Contact.class);
+        //Assert
+        Assert.assertEquals(contact.getFirstName(), "HelloUser");
+    }
 
 }
