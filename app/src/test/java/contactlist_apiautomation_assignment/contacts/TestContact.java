@@ -1,6 +1,7 @@
 package contactlist_apiautomation_assignment.contacts;
 
 import contactlist_apiautomation_assignment.users.TestUser;
+import io.restassured.response.Response;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
@@ -128,6 +129,18 @@ public class TestContact {
                 .extract().response().as(Contact.class);
         //Assert
         Assert.assertEquals(contact.getFirstName(), "HelloUser2");
+    }
+
+    @Test(priority = 5)
+    public void shouldTestDeleteContact() throws IOException {
+        //Arrange
+        //Act
+        Response response = given().spec(Utils.requestSpecificationBuilder())
+                .header("Authorization", "Bearer " + token)
+                .when().delete(APIResources.DeleteContactAPI.getResource()+id)
+                .then().extract().response();
+        //Assert
+        Assert.assertEquals(response.getStatusCode(), 200);
     }
 
 }

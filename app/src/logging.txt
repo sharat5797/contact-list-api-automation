@@ -13,32 +13,32 @@ Body:
 {
     "firstName": "TempUser",
     "lastName": "K",
-    "email": "leroy.fadel@yahoo.com",
-    "password": "8r19a03t0d82gfi"
+    "email": "chante.mann@gmail.com",
+    "password": "djv27bpb"
 }
 HTTP/1.1 201 Created
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697614651&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=V9hDbgeTRAzuXyU0606HnSjxQyfUbNkD%2F%2BwaP88wbaQ%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697614651&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=V9hDbgeTRAzuXyU0606HnSjxQyfUbNkD%2F%2BwaP88wbaQ%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697614862&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=1cGYCXQt3dR9X4U0H%2F%2F0YscBrfif1wp6ZIPkSYUDfsM%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697614862&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=1cGYCXQt3dR9X4U0H%2F%2F0YscBrfif1wp6ZIPkSYUDfsM%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
-Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGIzYmMwMzY2YTAwMTM5YjQyNjciLCJpYXQiOjE2OTc2MTQ2NTF9.MvIpDHuskkO5W1Yb6D7Bv2pU4XEwLFwscBuJjFI9kpk; Max-Age=684; Path=/; Expires=Wed, 18 Oct 2023 07:48:55 GMT
+Set-Cookie: token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGMwZWMwMzY2YTAwMTM5YjQyNmQiLCJpYXQiOjE2OTc2MTQ4NjJ9.fzxiycwF8cCfpaz8WUmQyesSmK6BGEnUHaP6Eohjacc; Max-Age=684; Path=/; Expires=Wed, 18 Oct 2023 07:52:26 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 281
-Etag: W/"119-jvHQqUjEoKC/1w6toZhH1lwDebw"
-Date: Wed, 18 Oct 2023 07:37:31 GMT
+Etag: W/"119-tCJ871D955xrtoRItwkohuKF3uA"
+Date: Wed, 18 Oct 2023 07:41:02 GMT
 Via: 1.1 vegur
 
 {
     "user": {
-        "_id": "652f8b3bc0366a00139b4267",
+        "_id": "652f8c0ec0366a00139b426d",
         "firstName": "TempUser",
         "lastName": "K",
-        "email": "leroy.fadel@yahoo.com",
+        "email": "chante.mann@gmail.com",
         "__v": 1
     },
-    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGIzYmMwMzY2YTAwMTM5YjQyNjciLCJpYXQiOjE2OTc2MTQ2NTF9.MvIpDHuskkO5W1Yb6D7Bv2pU4XEwLFwscBuJjFI9kpk"
+    "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGMwZWMwMzY2YTAwMTM5YjQyNmQiLCJpYXQiOjE2OTc2MTQ4NjJ9.fzxiycwF8cCfpaz8WUmQyesSmK6BGEnUHaP6Eohjacc"
 }
 Request method:	POST
 Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts
@@ -47,7 +47,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGIzYmMwMzY2YTAwMTM5YjQyNjciLCJpYXQiOjE2OTc2MTQ2NTF9.MvIpDHuskkO5W1Yb6D7Bv2pU4XEwLFwscBuJjFI9kpk
+Headers:		Authorization=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGMwZWMwMzY2YTAwMTM5YjQyNmQiLCJpYXQiOjE2OTc2MTQ4NjJ9.fzxiycwF8cCfpaz8WUmQyesSmK6BGEnUHaP6Eohjacc
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -55,17 +55,17 @@ Multiparts:		<none>
 Body:
 {
     "_id": null,
-    "firstName": "Josef",
-    "lastName": "Rau",
+    "firstName": "Leland",
+    "lastName": "Dach",
     "birthdate": "1970-01-01",
-    "email": "leroy.fadel@yahoo.com",
+    "email": "chante.mann@gmail.com",
     "phone": "9876543210",
-    "street1": "256 Kyle Knoll",
-    "street2": "Apt. 331",
-    "city": "South Enrique",
-    "stateProvince": "HI",
-    "postalCode": "59747",
-    "country": "Belgium",
+    "street1": "556 Charisse Isle",
+    "street2": "Apt. 744",
+    "city": "Lake Tawnya",
+    "stateProvince": "TN",
+    "postalCode": "53033-4760",
+    "country": "Sao Tome and Principe",
     "owner": null,
     "__v": 0
 }
@@ -74,25 +74,25 @@ Server: Cowboy
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 303
-Etag: W/"12f-YlTtrOLuYx39MXpLTJsZGhRiJIA"
-Date: Wed, 18 Oct 2023 07:37:33 GMT
+Content-Length: 325
+Etag: W/"145-u5nE1wdf+kJQS3DqVKsorHDkAAU"
+Date: Wed, 18 Oct 2023 07:41:04 GMT
 Via: 1.1 vegur
 
 {
     "_id": null,
-    "firstName": "Josef",
-    "lastName": "Rau",
+    "firstName": "Leland",
+    "lastName": "Dach",
     "birthdate": "1970-01-01",
-    "email": "leroy.fadel@yahoo.com",
+    "email": "chante.mann@gmail.com",
     "phone": "9876543210",
-    "street1": "256 Kyle Knoll",
-    "street2": "Apt. 331",
-    "city": "South Enrique",
-    "stateProvince": "HI",
-    "postalCode": "59747",
-    "country": "Belgium",
-    "owner": "652f8b3bc0366a00139b4267",
+    "street1": "556 Charisse Isle",
+    "street2": "Apt. 744",
+    "city": "Lake Tawnya",
+    "stateProvince": "TN",
+    "postalCode": "53033-4760",
+    "country": "Sao Tome and Principe",
+    "owner": "652f8c0ec0366a00139b426d",
     "__v": 0
 }
 Request method:	GET
@@ -102,7 +102,7 @@ Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGIzYmMwMzY2YTAwMTM5YjQyNjciLCJpYXQiOjE2OTc2MTQ2NTF9.MvIpDHuskkO5W1Yb6D7Bv2pU4XEwLFwscBuJjFI9kpk
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGMwZWMwMzY2YTAwMTM5YjQyNmQiLCJpYXQiOjE2OTc2MTQ4NjJ9.fzxiycwF8cCfpaz8WUmQyesSmK6BGEnUHaP6Eohjacc
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -110,43 +110,43 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697614654&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=kaKWBmFCh6tYEG0WUcQuywhSvTljEvIQZNN9JsDeBl8%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697614654&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=kaKWBmFCh6tYEG0WUcQuywhSvTljEvIQZNN9JsDeBl8%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697614866&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=sGtymfTB6K3VWzRWnU2TRkujBPZI6wVFhAhQFI3bhdA%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697614866&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=sGtymfTB6K3VWzRWnU2TRkujBPZI6wVFhAhQFI3bhdA%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 327
-Etag: W/"147-rKLhWCKtsttQ8z/QlLruWr1brp8"
-Date: Wed, 18 Oct 2023 07:37:34 GMT
+Content-Length: 349
+Etag: W/"15d-+0c+Pnv8+KHhfxoEZNrp0wQ+6es"
+Date: Wed, 18 Oct 2023 07:41:06 GMT
 Via: 1.1 vegur
 
 [
     {
-        "_id": "652f8b3d7ee017001337b1f7",
-        "firstName": "Josef",
-        "lastName": "Rau",
+        "_id": "652f8c10c0366a00139b4270",
+        "firstName": "Leland",
+        "lastName": "Dach",
         "birthdate": "1970-01-01",
-        "email": "leroy.fadel@yahoo.com",
+        "email": "chante.mann@gmail.com",
         "phone": "9876543210",
-        "street1": "256 Kyle Knoll",
-        "street2": "Apt. 331",
-        "city": "South Enrique",
-        "stateProvince": "HI",
-        "postalCode": "59747",
-        "country": "Belgium",
-        "owner": "652f8b3bc0366a00139b4267",
+        "street1": "556 Charisse Isle",
+        "street2": "Apt. 744",
+        "city": "Lake Tawnya",
+        "stateProvince": "TN",
+        "postalCode": "53033-4760",
+        "country": "Sao Tome and Principe",
+        "owner": "652f8c0ec0366a00139b426d",
         "__v": 0
     }
 ]
 Request method:	GET
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652f8b3d7ee017001337b1f7
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652f8c10c0366a00139b4270
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGIzYmMwMzY2YTAwMTM5YjQyNjciLCJpYXQiOjE2OTc2MTQ2NTF9.MvIpDHuskkO5W1Yb6D7Bv2pU4XEwLFwscBuJjFI9kpk
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGMwZWMwMzY2YTAwMTM5YjQyNmQiLCJpYXQiOjE2OTc2MTQ4NjJ9.fzxiycwF8cCfpaz8WUmQyesSmK6BGEnUHaP6Eohjacc
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -154,38 +154,41 @@ Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
 Server: Cowboy
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697614867&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=4WSD7GmShtNqz5ppmSDwF8hyjBb%2FrSJzSSdrxG9b8Rk%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697614867&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=4WSD7GmShtNqz5ppmSDwF8hyjBb%2FrSJzSSdrxG9b8Rk%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 325
-Etag: W/"145-ge+7Ljr+fLDQhfCnFXM7xWj8PyU"
-Date: Wed, 18 Oct 2023 07:37:35 GMT
+Content-Length: 347
+Etag: W/"15b-vOIaUS3dAyx0KsuiH9F4jcJdCTM"
+Date: Wed, 18 Oct 2023 07:41:07 GMT
 Via: 1.1 vegur
 
 {
-    "_id": "652f8b3d7ee017001337b1f7",
-    "firstName": "Josef",
-    "lastName": "Rau",
+    "_id": "652f8c10c0366a00139b4270",
+    "firstName": "Leland",
+    "lastName": "Dach",
     "birthdate": "1970-01-01",
-    "email": "leroy.fadel@yahoo.com",
+    "email": "chante.mann@gmail.com",
     "phone": "9876543210",
-    "street1": "256 Kyle Knoll",
-    "street2": "Apt. 331",
-    "city": "South Enrique",
-    "stateProvince": "HI",
-    "postalCode": "59747",
-    "country": "Belgium",
-    "owner": "652f8b3bc0366a00139b4267",
+    "street1": "556 Charisse Isle",
+    "street2": "Apt. 744",
+    "city": "Lake Tawnya",
+    "stateProvince": "TN",
+    "postalCode": "53033-4760",
+    "country": "Sao Tome and Principe",
+    "owner": "652f8c0ec0366a00139b426d",
     "__v": 0
 }
 Request method:	PUT
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652f8b3d7ee017001337b1f7
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652f8c10c0366a00139b4270
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGIzYmMwMzY2YTAwMTM5YjQyNjciLCJpYXQiOjE2OTc2MTQ2NTF9.MvIpDHuskkO5W1Yb6D7Bv2pU4XEwLFwscBuJjFI9kpk
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGMwZWMwMzY2YTAwMTM5YjQyNmQiLCJpYXQiOjE2OTc2MTQ4NjJ9.fzxiycwF8cCfpaz8WUmQyesSmK6BGEnUHaP6Eohjacc
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -194,56 +197,56 @@ Body:
 {
     "_id": null,
     "firstName": "HelloUser",
-    "lastName": "Rau",
+    "lastName": "Dach",
     "birthdate": "1970-01-01",
-    "email": "leroy.fadel@yahoo.com",
+    "email": "chante.mann@gmail.com",
     "phone": "9876543210",
-    "street1": "256 Kyle Knoll",
-    "street2": "Apt. 331",
-    "city": "South Enrique",
-    "stateProvince": "HI",
-    "postalCode": "59747",
-    "country": "Belgium",
+    "street1": "556 Charisse Isle",
+    "street2": "Apt. 744",
+    "city": "Lake Tawnya",
+    "stateProvince": "TN",
+    "postalCode": "53033-4760",
+    "country": "Sao Tome and Principe",
     "owner": null,
     "__v": 0
 }
 HTTP/1.1 200 OK
 Server: Cowboy
-Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697614657&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=FAOr1dNXuSgEIwfohFgujVSU19ZrwLQ8xdrHPNKSv3Q%3D"}]}
-Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697614657&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=FAOr1dNXuSgEIwfohFgujVSU19ZrwLQ8xdrHPNKSv3Q%3D
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1697614869&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=ZHMYBqHwaJGJRDwlEQKrkkFqBQhkffkBIChI2j8M42E%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1697614869&sid=af571f24-03ee-46d1-9f90-ab9030c2c74c&s=ZHMYBqHwaJGJRDwlEQKrkkFqBQhkffkBIChI2j8M42E%3D
 Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 329
-Etag: W/"149-/hDin2Uq8J7pgpKUmORwe8z2j9M"
-Date: Wed, 18 Oct 2023 07:37:37 GMT
+Content-Length: 350
+Etag: W/"15e-hhRx/GSh/DpGEbK3g92WscJmSmk"
+Date: Wed, 18 Oct 2023 07:41:10 GMT
 Via: 1.1 vegur
 
 {
-    "_id": "652f8b3d7ee017001337b1f7",
+    "_id": "652f8c10c0366a00139b4270",
     "firstName": "HelloUser",
-    "lastName": "Rau",
+    "lastName": "Dach",
     "birthdate": "1970-01-01",
-    "email": "leroy.fadel@yahoo.com",
+    "email": "chante.mann@gmail.com",
     "phone": "9876543210",
-    "street1": "256 Kyle Knoll",
-    "street2": "Apt. 331",
-    "city": "South Enrique",
-    "stateProvince": "HI",
-    "postalCode": "59747",
-    "country": "Belgium",
-    "owner": "652f8b3bc0366a00139b4267",
+    "street1": "556 Charisse Isle",
+    "street2": "Apt. 744",
+    "city": "Lake Tawnya",
+    "stateProvince": "TN",
+    "postalCode": "53033-4760",
+    "country": "Sao Tome and Principe",
+    "owner": "652f8c0ec0366a00139b426d",
     "__v": 0
 }
 Request method:	PATCH
-Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652f8b3d7ee017001337b1f7
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652f8c10c0366a00139b4270
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
 Form params:	<none>
 Path params:	<none>
-Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGIzYmMwMzY2YTAwMTM5YjQyNjciLCJpYXQiOjE2OTc2MTQ2NTF9.MvIpDHuskkO5W1Yb6D7Bv2pU4XEwLFwscBuJjFI9kpk
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGMwZWMwMzY2YTAwMTM5YjQyNmQiLCJpYXQiOjE2OTc2MTQ4NjJ9.fzxiycwF8cCfpaz8WUmQyesSmK6BGEnUHaP6Eohjacc
 				Accept=*/*
 				Content-Type=application/json
 Cookies:		<none>
@@ -257,24 +260,50 @@ Server: Cowboy
 Connection: keep-alive
 X-Powered-By: Express
 Content-Type: application/json; charset=utf-8
-Content-Length: 330
-Etag: W/"14a-8hSRB4ZB68V2ER/dasm2X5GX2po"
-Date: Wed, 18 Oct 2023 07:37:39 GMT
+Content-Length: 351
+Etag: W/"15f-SpLoru2EJZ6AE9WJstvxQcLbwrk"
+Date: Wed, 18 Oct 2023 07:41:11 GMT
 Via: 1.1 vegur
 
 {
-    "_id": "652f8b3d7ee017001337b1f7",
+    "_id": "652f8c10c0366a00139b4270",
     "firstName": "HelloUser2",
-    "lastName": "Rau",
+    "lastName": "Dach",
     "birthdate": "1970-01-01",
-    "email": "leroy.fadel@yahoo.com",
+    "email": "chante.mann@gmail.com",
     "phone": "9876543210",
-    "street1": "256 Kyle Knoll",
-    "street2": "Apt. 331",
-    "city": "South Enrique",
-    "stateProvince": "HI",
-    "postalCode": "59747",
-    "country": "Belgium",
-    "owner": "652f8b3bc0366a00139b4267",
+    "street1": "556 Charisse Isle",
+    "street2": "Apt. 744",
+    "city": "Lake Tawnya",
+    "stateProvince": "TN",
+    "postalCode": "53033-4760",
+    "country": "Sao Tome and Principe",
+    "owner": "652f8c0ec0366a00139b426d",
     "__v": 0
 }
+Request method:	DELETE
+Request URI:	https://thinking-tester-contact-list.herokuapp.com/contacts/652f8c10c0366a00139b4270
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NTJmOGMwZWMwMzY2YTAwMTM5YjQyNmQiLCJpYXQiOjE2OTc2MTQ4NjJ9.fzxiycwF8cCfpaz8WUmQyesSmK6BGEnUHaP6Eohjacc
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Server: Cowboy
+Connection: keep-alive
+X-Powered-By: Express
+Content-Type: text/html; charset=utf-8
+Content-Length: 15
+Etag: W/"f-smqnjm2ArsFbkvZ+qy6N7Dow4bQ"
+Date: Wed, 18 Oct 2023 07:41:13 GMT
+Via: 1.1 vegur
+
+<html>
+  <body>Contact deleted</body>
+</html>
